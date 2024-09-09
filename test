@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>My First Page</title>
+	</head>
+	<body>
+		<h1>Hello World!</h1>
+		<nav>
+			<a href="">Lab 1</a> |
+			<a href="">Lab 2</a> |
+			<a href="">Lab 3</a>
+		</nav>
+		<p>This is my test page.</p>
+		<p>I'm using it to test my uploads.</p>
+        <p>My name is Luke Allen and I am 22. I love a lot of things tech related, but when it comes to coding I have mixed feelings.</p>
+        <p>The main reason I am taking this class is because it is part of my degree plan, but I guess it would be cool to learn javascript as well.</p>
+	</body>
+</html>
