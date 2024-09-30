@@ -15,11 +15,13 @@
                     var index = yourNumber % 5;
                     var remainder = quotes[index];
                     document.write(remainder); // This will write one of the quotes above.
-                    let urls = ["https://www.youtube.com/", "https://www.amazon.com/", "https://www.instagram.com/"];
-                    document.write(urls);
-                    let yourURL = prompt("Please enter your favorite website.");
+                </script>    
+                <script>
+                    var urls = ["https://www.youtube.com/", "https://www.amazon.com/", "https://www.instagram.com/"];
+                    var yourURL = prompt("Please enter your favorite website.");
                     urls.push(yourURL);
                     urls.shift();
+                    document.write(urls + yourURL);
                 </script>
             </p>
         </main>
