@@ -10,11 +10,19 @@
         <main>
 		    <p>
                 <script>
-                    var quotes = ["Every day is a fresh start.", "Believe you can, and you’re halfway there.", "Small steps lead to big changes.", "Embrace the journey, not just the destination.", "Your vibe attracts your tribe."]
-                    var yourNumber = prompt("Please enter a number.")
+                    var quotes = ["Every day is a fresh start.", "Believe you can, and you’re halfway there.", "Small steps lead to big changes.", "Embrace the journey, not just the destination.", "Your vibe attracts your tribe."];
+                    var yourNumber = prompt("Please enter a number.");
                     var index = yourNumber % 5;
-                    var remainder = quotes[index]
-                    document.write(remainder);
+                    var remainder = quotes[index];
+                    document.write(remainder); // This will write one of the quotes above.
+                </script>
+            <br>
+                <script>
+                    var urls = ["https://www.youtube.com/", "https://www.amazon.com/", "https://www.instagram.com/"];
+                    var yourURL = prompt("Please enter your favorite website.");
+                    urls.push(yourURL);
+                    urls.shift();
+                    document.write("Favorite Websites" urls);
                 </script>
             </p>
         </main>
