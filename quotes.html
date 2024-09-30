@@ -6,8 +6,9 @@
         <link rel="stylesheet" href="style.css">
     </head>
 	<body>
-		<h2>Quotes of the day!</h2>
+		<h1>Quotes of the day!</h1>
         <main>
+		    <p>
                 <script>
                     var quotes = ["Every day is a fresh start.", "Believe you can, and you are halfway there.", "Small steps lead to big changes.", "Embrace the journey, not just the destination.", "Your vibe attracts your tribe."];
                     var yourNumber = prompt("Please enter a number.");
@@ -15,14 +16,15 @@
                     var remainder = quotes[index];
                     document.write(remainder); // This will write one of the quotes above.
                 </script>
-        <h2>Favorite Websites</h2>
+        <h1>Favorite Websites</h1>
                 <script>
                     var urls = ["https://www.youtube.com/", "https://www.amazon.com/", "https://www.instagram.com/"];
-                    var yourURL = prompt("Please enter your favorite website.");
-                    urls.push(yourURL);
+                    var yourUrl = prompt("Please enter your favorite website.");
+                    urls.push(yourUrl);
                     urls.shift();
                     document.write(urls);
                 </script>
+            </p>
         </main>
         <footer>
             Copyright &copy; 2024 You Found The Footer, Good Job!
