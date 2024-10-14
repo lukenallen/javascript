@@ -3,18 +3,34 @@ var basicAns = ['Right', 'Up', 'On'];
 
 function basicQuiz() {
   var points = 0;
-  for (i = 0; i <= 3; i++) {
-    var attempts = 3;
+  var attempts = 3;
     while (attempts > 0) {
 
-      ans = prompt(basicQuest[i]);
-      if (ans == basicAns[i]) {
+      ans = prompt(basicQuest[0]);
+      if (ans == basicAns[0]) {
         points = points + 1;
         alert("Correct, Good Job!");
         attempts = 0;
       } else {
         alert("Incorrect, Try Again!");
         attempts = attempts - 1;
+        ans = prompt(basicQuest[1]);
+      if (ans == basicAns[1]) {
+        points = points + 1;
+        alert("Correct, Good Job!");
+        attempts = 0;
+      } else {
+        alert("Incorrect, Try Again!");
+        attempts = attempts - 1;
+        ans = prompt(basicQuest[2]);
+      if (ans == basicAns[2]) {
+        points = points + 1;
+        alert("Correct, Good Job!");
+        attempts = 0;
+      } else {
+        alert("Incorrect, Try Again!");
+        attempts = attempts - 1;
+        }
       }
     }
   }
