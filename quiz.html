@@ -14,10 +14,10 @@
             <p>There will be three questions with only one answer to each.</p>
             <p>Good Luck!</p>
             <script>
-                var message = 'You got ' + score;
-                message += ' out of ' + question.length;
-                message += ' questions correct.';
-                document.write('<p>' + message + '</p>');
+                // call mathQuiz function
+                var score = basicQuiz();
+                // display the results on the screen
+                document.write('You got ' + score + ' out 3 correct!');
             </script>
         </main>
         <footer>
