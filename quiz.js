@@ -10,10 +10,10 @@ function basicQuiz() {
       ans = prompt(basicQuiz[i]);
       if (ans == basicAns[i]) {
         points = points + 1;
-        alert("Correct!");
+        alert("Correct, Good Job!");
         attempts = 0;
       } else {
-        alert("Incorrect");
+        alert("Incorrect, Try Again!");
         attempts = attempts - 1;
       }
     }
