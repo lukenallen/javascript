@@ -3,7 +3,7 @@ var basicQuest = ['the opposite of left?', 'the opposite of down?', 'the opposit
 var basicAns = ['right', 'up', 'on'];
 
 // math quiz function displays math questions and gives the user 2 attempts to get it right - then returns a score
-function basicQuiz() {
+function basicQuiz(i) {
   // initialize points
   var points = 0;
   //use a for loop to loop through each math question
