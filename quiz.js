@@ -16,12 +16,12 @@ function basicQuiz() {
       ans = prompt(basicQuest[i]);
       // see if the answer matches the answer array
       if (ans == basicAns[i]) {
-        // if correct, add 1 to points, alert user and set attempts to 0
+        // if correct, add 3 to points, alert user and set attempts to 0
         points = points + 3;
         alert("Correct, Good Job!");
         attempts = 0;
       } else {
-        // if answer doesn't match, alert user and subtract 1 from attempts
+        // if answer doesn't match, alert user and subtract 1 from each attempt
         alert("Incorrect, Try Again!");
         attempts = attempts - 1;
         points = points -1;
