@@ -1,7 +1,6 @@
 var basicQuest = ['What is the opposite of Left?', 'What is the opposite of Down?', 'What is the opposite of Off?'];
 var basicAns = ['Right', 'Up', 'On'];
 
-// math quiz function displays math questions and gives the user 2 attempts to get it right - then returns a score
 function basicQuiz() {
     // initialize points
     var points = 0;
@@ -12,7 +11,7 @@ function basicQuiz() {
       // use a while loop to give the user 3 attempts to answer
       while (attempts > 0) {
         // prompt user with math question
-        ans = prompt("What is " + basicQuest[i]);
+        ans = prompt(basicQuest[i]);
         // see if the answer matches the answer array
         if (ans == basicAns[i]) {
           // if correct, add 1 to points, alert user and set attempts to 0
