@@ -1,6 +1,6 @@
 // set up question and matching answer arrays
-var basicQuest = ['What is the opposite of Left?', 'What is the opposite of Down?', 'What is the opposite of Off?'];
-var basicAns = ['Right', 'Up', 'On'];
+var basicQuest = ['What is the opposite of left?', 'What is the opposite of down?', 'What is the opposite of off?'];
+var basicAns = ['right', 'up', 'on'];
 
 // math quiz function displays math questions and gives the user 2 attempts to get it right - then returns a score
 function basicQuiz() {
@@ -22,7 +22,7 @@ function basicQuiz() {
         attempts = 0;
       } else {
         // if answer doesn't match, alert user and subtract 1 from attempts
-        alert("Incorrect, Try Again");
+        alert("Incorrect, Try Again!");
         attempts = attempts - 1;
         points = points -1;
       } // end if
