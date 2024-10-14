@@ -31,3 +31,10 @@ function basicQuiz() {
   // return the points variable
   return points;
 } // end basicQuiz function
+var val = prompt('Hello');
+if(val){
+    alert('Not null');
+}
+else {
+    alert('Null');
+}
