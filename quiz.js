@@ -17,7 +17,7 @@ function basicQuiz() {
       // see if the answer matches the answer array
       if (ans == basicAns[i]) {
         // if correct, add 1 to points, alert user and set attempts to 0
-        points = points + 1;
+        points = points + 3;
         alert("Correct, Good Job!");
         attempts = 0;
       } else {
