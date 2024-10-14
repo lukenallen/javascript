@@ -14,8 +14,10 @@
             <p>There will be three questions with only one answer to each.</p>
             <p>Good Luck!</p>
             <script>
-                // display the results on the screen
-                document.write('You got ' + score + ' out of 3 correct!');
+                var message = 'You got ' + score;
+                message += ' out of ' + question.length;
+                message += ' questions correct.';
+                document.write('<p>' + message + '</p>');
             </script>
         </main>
         <footer>
