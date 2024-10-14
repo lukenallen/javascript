@@ -1,4 +1,4 @@
-var basicQuiz = ['What is the opposite of Left?', 'What is the opposite of Down?', 'What is the opposite of Off?'];
+var basicQuest = ['What is the opposite of Left?', 'What is the opposite of Down?', 'What is the opposite of Off?'];
 var basicAns = ['Right', 'Up', 'On'];
 
 function basicQuiz() {
@@ -7,7 +7,7 @@ function basicQuiz() {
     var attempts = 3;
     while (attempts > 0) {
 
-      ans = prompt(basicQuiz[i]);
+      ans = prompt(basicQuest[i]);
       if (ans == basicAns[i]) {
         points = points + 1;
         alert("Correct, Good Job!");
