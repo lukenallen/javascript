@@ -1,3 +1,4 @@
+var points = 0;
 var questions = [
 ['What is the opposite of Left?', Right],
 ['What is the opposite of Down?', Up],
@@ -12,7 +13,7 @@ function askQuestion(question) {
     var answer = prompt(question[0],'');
     if (answer == question[1]) {
         alert('Correct, Good Job!');
-        score++;
+        points++;
     } else {
         alert('Incorrect, Try Again!');
     }
